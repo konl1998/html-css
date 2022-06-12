@@ -16,6 +16,8 @@
       border-radius: 3px;
       transition: 1s;
       margin-right: 20px;
+      font-size: 40px;
+
   }
 
   li:hover {
@@ -40,6 +42,10 @@
     flex-direction: row;
     position: relative;
 
+  }
+
+  a {
+    text-decoration: none;
   }
   
   .box1 {
@@ -76,3 +82,13 @@
     border: 1px solid #3683f3;
     border-radius: 5px;
   }
+
+@media (max-width: 780px) {
+  .li {
+    font-size: 50px;
+  }
+
+  .box2 {
+    left: 30%;
+  }
+}  
